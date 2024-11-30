@@ -4,10 +4,6 @@ import './style.css';
 function Content() {
     const contentdiv = document.querySelector('#content');
 
-    const header = document.createElement('h1');
-    header.textContent = 'Slice of Heaven Pizzeria';
-    contentdiv.appendChild(header);
-
     const img = new Image();
     img.src = Img;
     img.width = 880;
