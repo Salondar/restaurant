@@ -1,4 +1,32 @@
 body {
-    width: 900px;
+    width: 880px;
     margin: 0 auto;
+    font-family: "Parkinsans";
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+img {
+    margin-top: 10px;
 }
