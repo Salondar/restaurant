@@ -22,3 +22,5 @@ contactBtn.addEventListener('click', ()=> {
     divContent.innerHTML = '';
     Contact();
 });
+
+Home();
