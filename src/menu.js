@@ -76,4 +76,4 @@ function Menu() {
     Content.appendChild(divItem8);
 }
 
-Menu();
+export {Menu}

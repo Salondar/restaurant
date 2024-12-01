@@ -13,4 +13,5 @@ function Contact () {
     openTime.textContent = 'Open 7 days a week';
     Content.appendChild(openTime);
 }
-Contact();
+
+export {Contact}

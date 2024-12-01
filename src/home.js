@@ -15,4 +15,5 @@ function Home() {
     contentdiv.appendChild(para);
 
 }
-Content();
+
+export {Home};
