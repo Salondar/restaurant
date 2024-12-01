@@ -1,7 +1,9 @@
-const Contemt = document.querySelector('#content');
+import Img from './pizzaria.jpeg';
+
+const Content = document.querySelector('#content');
 
 function Home() {
-    const img = new Image();
+    const img = document.createElement('img');
     img.src = Img;
     img.width = 880;
     img.height = 600;
@@ -13,4 +15,4 @@ function Home() {
 
 }
 
-export {Home};
+export {Home, Img};
