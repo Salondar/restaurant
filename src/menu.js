@@ -1,7 +1,6 @@
+const Content = document.querySelector('#content');
 
 function Menu() {
-    const Content = document.querySelector('#content');
-
     const divItem1 = document.createElement('div');
     const headerItem1 = document.createElement('h1');
     headerItem1.textContent = 'The Cosmic Crunch | 18';
