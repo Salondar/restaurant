@@ -1,7 +1,7 @@
 import Img from './pizzaria.jpeg';
 import './style.css';
 
-function Content() {
+function Home() {
     const contentdiv = document.querySelector('#content');
 
     const img = new Image();
